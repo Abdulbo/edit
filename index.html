@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .todo-item--quick{
+            background-color: orangered;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <input type="text" placeholder="Ubu ish" id="todoName">
+        <label> Yonyapti: <input type="checkbox"  id="todoQuick"></label>
+        <button id="form-submiter">Saqlash</button>
+    </form>
+    <p>Tanlanganlar Soni <span class="count">0</span> <Button id="chop-all">Chopish</Button></p>
+    <ul class="todo-list">
+        <li  class="todo-item todo-item--quick"> 
+            <div>Ubu narsa qilish</div>
+            <button type="button"> Ozgartirish</button>
+            <button type="button"> Ochirish</button>
+        </li>
+    </ul>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
